@@ -10,5 +10,12 @@
     <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="PromarketPagamentoApi.Tests\**" />
+    <Content Remove="PromarketPagamentoApi.Tests\**" />
+    <EmbeddedResource Remove="PromarketPagamentoApi.Tests\**" />
+    <None Remove="PromarketPagamentoApi.Tests\**" />
+  </ItemGroup>
 </Project>
 

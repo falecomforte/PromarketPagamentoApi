@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PromarketPagamentoApi.csproj" />
+  <Project Path="PromarketPagamentoApi.Tests/PromarketPagamentoApi.Tests.csproj" />
+</Solution>
